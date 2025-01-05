@@ -35,3 +35,16 @@ The only slightly tricky part is e^(-jωt), which is just:
 
 cos(-ωt) + j*sin(-ωt) [Euler's formula]
 '''
+
+
+# Example usage:
+from math import cos, sin, pi
+
+# Create time points
+t = [i/100 for i in range(-100, 101)]   # -1 to 1 seconds
+f_t = [cos(2*pi*t[i]) for i in range(len(t))]  # test signal: cos(2πt)
+omega = 2*pi  # test frequency: 2π rad/s
+
+F_omega = fourier_transform(f_t, t, omega)
+print(f"F({omega}) = {F_omega}")
+
