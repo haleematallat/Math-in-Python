@@ -46,4 +46,24 @@ signal = [cos(2*t) for t in times]     # Original signal
 # Transform signal to frequencies and back
 frequencies = time_to_frequency(signal, times)
 reconstructed = frequency_to_time(frequencies, times)
+'''
+Forward transform (time_to_frequency):
 
+1. Takes a signal in time
+2. For each frequency: checks how much of that frequency exists in the signal
+3. Returns list of frequency strengths
+
+
+Inverse transform (frequency_to_time):
+
+1. Takes frequency strengths
+2. For each time: adds up all frequencies with their strengths
+3. Returns reconstructed signal
+
+
+
+It's like:
+
+Forward: "How much of each frequency is in my signal?"
+Inverse: "Add up all frequencies to get back my signal"
+'''
