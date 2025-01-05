@@ -3,6 +3,8 @@
 
 A collection of mathematical concepts explained through their programming equivalents. This project aims to bridge the gap between mathematical notation and practical implementation.
 
+#### "Mathematics is the art of giving the same name to different things." - Henri Poincaré
+
 ## Overview
 
 Mathematical notation can often obscure simple concepts behind complex symbols. This repository demonstrates how common mathematical operations can be expressed as straightforward programming constructs.
@@ -59,5 +61,3 @@ Contributions are welcome. To add a new mathematical concept:
 
 This project serves as a bridge between mathematical theory and practical implementation, making mathematical concepts more accessible through programming.
 
-
-"Mathematics is the art of giving the same name to different things." - Henri Poincaré
